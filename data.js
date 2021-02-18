@@ -1,5 +1,6 @@
 const yarnInMyCloset = [
 	{
+		id: 1,
 		name: 'Cakes',
 		brand: 'Caron',
 		material: 'blend (acrylic-wool)',
@@ -9,6 +10,7 @@ const yarnInMyCloset = [
 		partials: true,
 	},
 	{
+		id: 2,
 		name: 'Sugar \'N Cream',
 		brand: 'Lily',
 		material: 'cotton',
@@ -18,6 +20,7 @@ const yarnInMyCloset = [
 		partials: true,
 	},
 	{
+		id: 3,
 		name: 'Grace',
 		brand: 'Patons',
 		material: 'cotton (mercerized)',
@@ -27,6 +30,7 @@ const yarnInMyCloset = [
 		partials: false,
 	},
 	{
+		id: 4,
 		name: 'Kroy Socks',
 		brand: 'Patons',
 		material: 'blend (wool-nylon)',
@@ -36,6 +40,7 @@ const yarnInMyCloset = [
 		partials: true,
 	},
 	{
+		id: 5,
 		name: 'Wool-Ease',
 		brand: 'Lion',
 		material: 'blend (acrylic-wool)',
@@ -45,6 +50,7 @@ const yarnInMyCloset = [
 		partials: false,
 	},
 	{
+		id: 6,
 		name: 'Classic Wool',
 		brand: 'Patons',
 		material: 'wool',
