@@ -20,3 +20,22 @@ it('gets the home endpoint', async done => {
 	expect(response.body).toEqual(myData)
 	done()
   })
+
+  it('gets a single yarn endpoint', async done => {
+	const myData = {
+        "id": 3,
+        "name": "Grace",
+        "brand": "Patons",
+        "material": "cotton (mercerized)",
+        "color": "green",
+        "yarn_weight": "sport",
+        "quantity": 3,
+        "partials": false
+    };
+	
+	const response = await request.get('/yarn/3');
+  
+	expect(response.status).toBe(200)
+	expect(response.body).toEqual(myData)
+	done()
+  })
