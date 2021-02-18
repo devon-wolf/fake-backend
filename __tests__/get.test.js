@@ -8,6 +8,6 @@ it('gets the home endpoint', async done => {
 	const response = await request.get('/');
   
 	expect(response.status).toBe(200)
-	expect(response.body.message).toEqual(myData)
+	expect(response.body).toEqual(myData)
 	done()
   })
